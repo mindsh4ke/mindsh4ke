@@ -1,6 +1,18 @@
 /*xl*/
 
-@media only screen and (min-width: 1280px) {}
+@media only screen and (min-width: 1280px) {
+    #showcase {
+        &-2 {
+            left: 1150px;
+        }
+        &-3 {
+            left: 1150px;
+        }
+        &-5 {
+            left: 1150px;
+        }
+    }
+}
 
 
 /*lg*/
