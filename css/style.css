@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #00BCD4;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1d1d1f;
+  color: white;
+}
+
+#main-page {
+  width: 80vw;
+  height: 80vh;
+  background-color: #25262a;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.137);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.137);
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.title-contanier {
+  font-size: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-image: url(../src/img/code.png);
+}
+
+.title-contanier > span {
+  width: 250px;
+  height: 60px;
+}
+
+.title-contanier > span:nth-child(2) > span {
+  color: #00BCD4;
+}
+
+.main-button {
+  font-weight: 800;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: #00BCD4;
+  border-radius: 5px;
+  color: #25262a;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  outline: 0px solid #00BCD4;
+}
+
+.main-button:hover {
+  cursor: pointer;
+  background-color: #25262a;
+  outline: 4px solid #00BCD4;
+  color: #00BCD4;
+}
+
+#contact-button {
+  position: relative;
+  left: 40px;
+}
+
+.scrolldown-button {
+  padding-top: 50px;
+  color: #00BCD4;
+  width: 300px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#about-me-button {
+  margin: auto;
+  margin-top: 170px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+#about-me-button > a {
+  text-decoration: none;
+  color: white;
+}
+
+#about-me-section {
+  width: 100%;
+  height: 600px;
+  padding-top: 100px;
+}
+
+h1 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.generic-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2.5em;
+  color: #00BCD4;
+}
+
+.generic-title > span {
+  color: #25262a;
+  background-color: #00BCD4;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.purple-text {
+  color: #00BCD4;
+}
+
+.generic-paragraph {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#showcase-1 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: 200px;
+  background-image: url(../src/img/copper_golem.gif);
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+}
+
+#showcase-2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  bottom: 700px;
+  left: 1000px;
+  background-image: url(../src/img/enderman_plushy.png);
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#projects-section {
+  width: 100%;
+  height: 600px;
+  padding-top: 100px;
+  margin-top: -500px;
+}
+
+#projects-title {
+  margin-bottom: 250px;
+}
+
+.projects-container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: -250px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.project-card {
+  width: 300px;
+  height: 250px;
+  background-color: #2d2e32;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2em;
+  border-radius: 5px;
+  -webkit-transition: -webkit-box-shadow, -webkit-filter 0.25s;
+  transition: -webkit-box-shadow, -webkit-filter 0.25s;
+  transition: box-shadow, filter 0.25s;
+  transition: box-shadow, filter 0.25s, -webkit-box-shadow, -webkit-filter 0.25s;
+  margin: 10px;
+}
+
+.project-card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.137);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.137);
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+.project-card > img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.project-card > .title {
+  margin-top: 15px;
+}
+
+.project-card > .sharings-counter {
+  margin-top: 20px;
+  color: #00BCD4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-card > .sharings-counter > i {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#showcase-3 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: 300px;
+  left: 900px;
+  background-image: url(../src/img/aurora_lemur.gif);
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+}
+
+#showcase-4 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: 500px;
+  left: 0px;
+  background-image: url(../src/img/floral_deer.png);
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#showcase-5 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  bottom: 700px;
+  left: 900px;
+  background-image: url(../src/img/dark_guardian.png);
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#contact-section {
+  margin-top: 200px;
+}
+
+#contact-title {
+  margin-top: 50px;
+}
+
+.contact-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 300px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.contact-button > span {
+  width: 90%;
+}
+
+.contact-button > i {
+  font-size: 1.2em;
+}
+
+.extra-info-container {
+  margin-top: -600px;
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.extra-info-container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.extra-info-container > div > i {
+  margin: 10px;
+}
+
+#showcase-6 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: 200px;
+  background-image: url(../src/img/copper_golem.gif);
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+}
+
+/*.decoration-circle-1 {
+    border-radius: 400px;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -500px;
+    left: 60vw;
+    background-color: #25262a;
+}*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*xl*/
+/*lg*/
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+  #showcase-1 {
+    left: -25px;
+  }
+  #showcase-4 {
+    left: -80px;
+  }
+  #showcase-6 {
+    left: -50px;
+  }
+  #contact-section {
+    margin-top: 320px;
+  }
+}
+
+/*md*/
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  #showcase-1 {
+    left: -25px;
+  }
+  #showcase-4 {
+    left: -80px;
+  }
+  #showcase-6 {
+    left: -50px;
+  }
+  #contact-section {
+    margin-top: 320px;
+  }
+  #projects-container {
+    width: 100%;
+  }
+  .project-card {
+    width: 250px;
+    height: 225px;
+  }
+}
+
+/*sm*/
+@media only screen and (max-width: 768px) and (min-width: 640px) {
+  #main-page {
+    width: 90vw;
+    height: 90vh;
+  }
+  #showcase-1 {
+    left: -55px;
+  }
+  #showcase-4 {
+    left: -120px;
+  }
+  #showcase-6 {
+    display: none;
+  }
+  #about-me-section {
+    padding-top: 170px;
+  }
+  #contact-section {
+    margin-top: 1320px;
+  }
+  #projects-container {
+    width: 100%;
+  }
+  .project-card {
+    width: 350px;
+    height: 265px;
+  }
+  .extra-info-container {
+    margin-top: -200px;
+  }
+}
+
+/*ssm*/
+@media only screen and (max-width: 640px) {
+  .generic-title {
+    font-size: 1.8rem;
+  }
+  #contact-button {
+    left: 25vw;
+    -webkit-transform: translateX(-25vw);
+            transform: translateX(-25vw);
+  }
+  #main-page {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  #showcase-1 {
+    display: none;
+  }
+  #showcase-2 {
+    display: none;
+  }
+  #showcase-3 {
+    display: none;
+  }
+  #showcase-4 {
+    display: none;
+  }
+  #showcase-6 {
+    display: none;
+  }
+  .generic-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #dev-info-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  #projects-section {
+    margin-top: 0px;
+  }
+  #contact-section {
+    margin-top: 1150px;
+  }
+  .extra-info-container {
+    margin-top: -160px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    ustify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

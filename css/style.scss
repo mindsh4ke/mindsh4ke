@@ -1,0 +1,361 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: $color-accent;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1f;
+    color: white;
+}
+
+#main-page {
+    width: 80vw;
+    height: 80vh;
+    background-color: $color-main-dark;
+    box-shadow: $main-shadow;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.title-contanier {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(../src/img/code.png);
+    &>span {
+        width: 250px;
+        height: 60px;
+        &:nth-child(2) {
+            &>span {
+                color: $color-accent;
+            }
+        }
+    }
+}
+
+.main-button {
+    font-weight: 800;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: $color-accent;
+    border-radius: 5px;
+    color: $color-main-dark;
+    transition: all 0.25s;
+    outline: 0px solid $color-accent;
+    &:hover {
+        cursor: pointer;
+        background-color: $color-main-dark;
+        outline: 4px solid $color-accent;
+        color: $color-accent;
+    }
+}
+
+#contact-button {
+    position: relative;
+    left: 40px;
+}
+
+.scrolldown-button {
+    padding-top: 50px;
+    color: $color-accent;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#about-me-button {
+    margin: auto;
+    margin-top: 170px;
+    font-size: 1.1rem;
+    color: white;
+    &>a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#about-me-section {
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+}
+
+h1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.generic-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    color: $color-accent;
+    &>span {
+        color: $color-main-dark;
+        background-color: $color-accent;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+.purple-text {
+    color: $color-accent;
+}
+
+.generic-paragraph {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#showcase-1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    bottom: 200px;
+    background-image: url(../src/img/copper_golem.gif);
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+}
+
+#showcase-2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 700px;
+    left: 1000px;
+    background-image: url(../src/img/enderman_plushy.png);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+#projects-section {
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    margin-top: -500px;
+}
+
+#projects-title {
+    margin-bottom: 250px;
+}
+
+.projects-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: -250px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-card {
+    width: 300px;
+    height: 250px;
+    background-color: #2d2e32;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: box-shadow, filter 0.25s;
+    margin: 10px;
+    &:hover {
+        cursor: pointer;
+        box-shadow: $main-shadow;
+        filter: brightness(1.1);
+    }
+    &>img {
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+    }
+    &>.title {
+        margin-top: 15px;
+    }
+    &>.sharings-counter {
+        margin-top: 20px;
+        color: $color-accent;
+        display: flex;
+        &>i {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+}
+
+#showcase-3 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    bottom: 300px;
+    left: 900px;
+    background-image: url(../src/img/aurora_lemur.gif);
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+}
+
+#showcase-4 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    bottom: 500px;
+    left: 0px;
+    background-image: url(../src/img/floral_deer.png);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+#showcase-5 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    bottom: 700px;
+    left: 900px;
+    background-image: url(../src/img/dark_guardian.png);
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+#contact-section {
+    margin-top: 200px;
+}
+
+#contact-title {
+    margin-top: 50px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.contact-button {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    &>span {
+        width: 90%;
+    }
+    &>i {
+        font-size: 1.2em;
+    }
+}
+
+.extra-info-container {
+    margin-top: -600px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    &>div {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        &>i {
+            margin: 10px;
+        }
+    }
+}
+
+#showcase-6 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    bottom: 200px;
+    background-image: url(../src/img/copper_golem.gif);
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+}
+
+
+/*.decoration-circle-1 {
+    border-radius: 400px;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -500px;
+    left: 60vw;
+    background-color: #25262a;
+}*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@import 'responsive'
