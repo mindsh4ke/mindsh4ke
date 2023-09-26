@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Mindsh4ke</h1>
-<h3 align="center">A passionate student and mod developer from Spain</h3>
+<h3 align="center">A passionate web and mod developer from Spain</h3>
 
-- 🔭 I’m currently working on **Decomine Furniture Mod**
+- 🔭 I’m currently working on
+- ![alt Security For Fabric](https://cf.way2muchnoise.eu/versions/709243.svg) ![alt downloads](https://cf.way2muchnoise.eu/full_709243_downloads.svg) & ![alt Witch Mobility](https://cf.way2muchnoise.eu/versions/782330.svg) ![alt downloads](https://cf.way2muchnoise.eu/full_782330_downloads.svg)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
