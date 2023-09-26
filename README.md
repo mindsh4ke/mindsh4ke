@@ -2,8 +2,8 @@
 <h3 align="center">A passionate web and mod developer from Spain</h3>
 
 - 🔭 I’m currently working on:
-- Security For Fabric ![alt Security For Fabric](https://cf.way2muchnoise.eu/versions/709243.svg) ![alt downloads](https://cf.way2muchnoise.eu/full_709243_downloads.svg)
-- Witch Mobility ![alt Witch Mobility](https://cf.way2muchnoise.eu/versions/782330.svg) ![alt downloads](https://cf.way2muchnoise.eu/full_782330_downloads.svg)
+- Security For Fabric ![alt downloads](https://cf.way2muchnoise.eu/full_709243_downloads.svg)
+- Witch Mobility ![alt downloads](https://cf.way2muchnoise.eu/full_782330_downloads.svg)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
