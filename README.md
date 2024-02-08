@@ -9,7 +9,6 @@
 <p align="left">
 <a href="https://twitter.com/mindsh4ke1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mindsh4ke1" height="30" width="40" /></a>
 <a href="https://instagram.com/mind.sh4ke_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mind.sh4ke_" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/albii0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="albii0" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
