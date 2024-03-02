@@ -1,6 +1,4 @@
-<div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"  />
-</div>
+<h1 align="center">Hi!👋 I'm Alba, a Fullstack with a passion for 💻Web Development and 🕹️Game Development</h1>
 
 ###
 
@@ -24,10 +22,6 @@
 
 ###
 
-<h1 align="center">hey there 👋</h1>
-
-###
-
 <h3 align="left">👩‍💻  About Me</h3>
 
 ###
@@ -37,8 +31,11 @@
 ###
 
 <h1>🔭 I’m currently working on:</h1>
-- Security For Fabric ![alt downloads](https://cf.way2muchnoise.eu/full_709243_downloads.svg) <a href="https://github.com/mindsh4ke/security-for-fabric">More details</a>
-- Witch Mobility ![alt downloads](https://cf.way2muchnoise.eu/full_782330_downloads.svg) <a href="https://github.com/mindsh4ke/witch-mobility-mod">More details</a>
+
+  <img src="https://mcpedl.com/_nuxt/img/logo.e39b598.png" height="20"/> Minecraft Bedrock Mods<br> <a href="https://mcpedl.com/user/albii/">More Details</a><br><br>
+  -Witch Mobility <br>[<img src="https://cf.way2muchnoise.eu/full_782330_downloads.svg" alt="Witch Mobility Mod">](https://www.curseforge.com/minecraft/mc-mods/witch-mobility)<br><br>
+  -Security For Fabric<br> [<img src="https://cf.way2muchnoise.eu/full_709243_downloads.svg" alt="Security for fabric mod">](https://www.curseforge.com/minecraft/mc-mods/security4fabric)<br>
+
 
 ###
 
