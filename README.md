@@ -1,4 +1,4 @@
-<h1 align="center">Hi!👋 I'm Alba, a Fullstack with a passion for 💻Web Development and 🕹️Game Development</h1>
+<h1 align="center">Hi!👋 I'm Alba, a Fullstack Dev with a passion for 💻Web Development and 🕹️Game Development</h1>
 
 ###
 
